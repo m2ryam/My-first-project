@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+	const int size = 3;
+	int x[size] = { 2,4,6 }, swap;
+	cout << "the element before swap: " << x[1] << " and " << x[2] << endl;
+	swap= x[1];
+	x[1] = x[2];
+	x[2] = swap;
+	cout << "the element after swap: " << x[1] << " and " << x[2];
+	
+
+
+
+
+
+	return 0;
+
+}
